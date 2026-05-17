@@ -277,6 +277,7 @@ a:hover { color: var(--accent); }
   color: var(--ink);
   font-weight: 300;
   text-wrap: pretty;
+  white-space: pre-line;
 }
 .hero-meta {
   display: grid;
@@ -302,6 +303,7 @@ a:hover { color: var(--accent); }
 }
 .hero-meta-row .v {
   color: var(--ink);
+  white-space: pre-line;
 }
 .hero-meta-row .v .accent {
   font-family: var(--serif);
@@ -448,6 +450,9 @@ a:hover { color: var(--accent); }
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--mute);
+}
+.about-info-row .v {
+  white-space: pre-line;
 }
 .about-narrative p {
   font-family: var(--serif);

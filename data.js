@@ -16,14 +16,14 @@ window.PORTFOLIO_DATA = {
       en: ["The shape of a", "smarter office."]
     },
     blurb: {
-      ko: "8년의 총무 실무 위에 AI를 얹어, 비용·공간·계약의 흐름을 다시 설계해 왔습니다. 2023년 15.3억의 연간 지출은 2025년 5.3억으로 줄었고, 500명 규모의 사무 환경은 데이터로 운영되는 조직으로 진화하고 있습니다.",
+      ko: "8년의 총무 실무 위에 AI를 얹어, 비용·공간·계약의 흐름을 다시 설계해 왔습니다. 2023년 15.3억의 연간 지출은 2025년 5.3억\n으로 줄었고, 500명 규모의 사무 환경은 데이터로 운영되는 조직으로 진화하고 있습니다.",
       en: "Eight years of general affairs practice, layered with AI — redesigning the flow of cost, space, and contracts. Annual spend of ₩1.53B in 2023 fell to ₩530M in 2025, and a 500-person office is evolving into a data-driven operation."
     },
     location: { ko: "인천 서구 · 서울권 가능", en: "Incheon, Seoul Metro Area" },
     email: "wnsgur8036@naver.com",
     phone: "010 4057 8036",
     born: { ko: "1993 · 32세", en: "1993 · age 32" },
-    current: { ko: "코나아이㈜ HR팀 · 과장", en: "KONA I · HR Team · Manager" },
+    current: { ko: "코나아이㈜ HR팀 · 과장\n(2026년 과장 승진자중 최연소)", en: "KONA I · HR Team · Manager" },
     tenure: { ko: "총 경력 8년 6개월", en: "8 years 6 months" },
     salary: { ko: "회사 내규에 따름", en: "Per company policy" },
     address: { ko: "인천 서구 이음3로", en: "Eum 3-ro, Seo-gu, Incheon" }
@@ -276,9 +276,9 @@ window.PORTFOLIO_DATA = {
       id: "p04",
       year: "2022",
       category: "space",
-      title: { ko: "사무실 이전", en: "1,000-Person Office Relocation" },
+      title: { ko: "1,000명 규모 사무실 이전", en: "1,000-Person Office Relocation" },
       org: "SSG.COM",
-      headline: { ko: "사무실 이전", en: "PM · Zero incidents" },
+      headline: { ko: "CAD · SketchUp", en: "PM · Zero incidents" },
       summary: {
         ko: "사옥 이전을 좌석 재배치, 도서관 운영까지 무사 안착.",
         en: "Project-managed a 1,000-person relocation through COVID — seat reassignment, sanitation, and library operation, all landed without incident."
@@ -299,7 +299,7 @@ window.PORTFOLIO_DATA = {
     },
     {
       id: "p05",
-      year: "2024",
+      year: "2024~ING",
       category: "ai",
       title: { ko: "AI-Native 총무 워크플로", en: "AI-Native GA Workflow" },
       org: "KONA I",
