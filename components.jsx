@@ -135,6 +135,13 @@ function About({ lang }) {
       </div>
       <div className="about-grid">
         <div className="about-info reveal">
+          <figure className="portrait-frame">
+            <img src="portrait.jpg" alt={lang === "ko" ? "양준혁 인물 사진" : "Yang Junhyuk portrait"} loading="lazy" />
+            <figcaption>
+              <span className="portrait-tag">— Plate i.</span>
+              <span className="portrait-name">{lang === "ko" ? "양준혁 · Yang, Junhyuk" : "Yang, Junhyuk · 양준혁"}</span>
+            </figcaption>
+          </figure>
           <Row k={lang === "ko" ? "이름" : "Name"} v={lang === "ko" ? `${m.name.ko} · ${m.nameRoman}` : `${m.nameRoman} · ${m.name.ko}`} />
           <Row k={lang === "ko" ? "출생" : "Born"} v={m.born[lang]} />
           <Row k={lang === "ko" ? "거주" : "Location"} v={m.location[lang]} />

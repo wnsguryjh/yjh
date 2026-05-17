@@ -389,6 +389,44 @@ a:hover { color: var(--accent); }
   grid-template-columns: 1fr 1.6fr;
   gap: clamp(32px, 6vw, 80px);
 }
+
+/* Portrait frame — editorial plate above the info table */
+.portrait-frame {
+  margin: 0 0 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.portrait-frame img {
+  width: 100%;
+  aspect-ratio: 7 / 9;
+  object-fit: cover;
+  object-position: center 20%;
+  background: var(--bg-alt);
+  filter: grayscale(20%) contrast(1.02);
+  border-radius: 2px;
+}
+.portrait-frame figcaption {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--mute);
+  padding: 0 2px 4px;
+  border-bottom: 1px solid var(--line);
+  gap: 12px;
+}
+.portrait-frame .portrait-name {
+  color: var(--ink);
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 13px;
+  letter-spacing: 0;
+  text-transform: none;
+}
 .about-info {
   display: grid;
   grid-template-columns: 1fr;
